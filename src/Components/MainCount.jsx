@@ -11,6 +11,7 @@ import iconCode from '../assets/code.png'
 import analysisImg from '../assets/analysis.png'
 import checkIcon from '../assets/check.png'
 import securityImg from '../assets/security.png'
+import laptopImg from '../assets/laptop.png'
 
 
 
@@ -191,8 +192,11 @@ const MainCount = () => {
                             Download now
                         </button>
                     </div>
+                    
+                    <div className="w-full flex justify-end">
+                        <img src={laptopImg} alt="Get our software" className="w-full object-contain" />
+                    </div>
 
-                  
 
                 </div>
             </section>
