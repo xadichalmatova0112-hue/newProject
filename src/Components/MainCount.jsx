@@ -10,6 +10,8 @@ import iconShield from '../assets/shield.png'
 import iconCode from '../assets/code.png'
 import analysisImg from '../assets/analysis.png'
 import checkIcon from '../assets/check.png'
+import securityImg from './assets/security.png'
+
 
 
 const MainCount = () => {
@@ -143,9 +145,19 @@ const MainCount = () => {
                             </li>
                         </ul>
                     </div>
-                    
+
                     <div className="w-full lg:w-[50%] flex justify-end">
                         <img src={analysisImg} alt="Discover and growth analysis" className="w-full object-contain" />
+                    </div>
+
+
+                </div>
+            </section>
+            <section className="bg-base-100 py-[80px]">
+                <div className="w-[85%] mx-auto flex flex-col lg:flex-row items-center justify-between gap-[60px]">
+
+                    <div className="w-full lg:w-[50%] flex justify-start">
+                        <img src={securityImg} alt="Serving information with security" className="w-full object-contain" />
                     </div>
 
 
