@@ -10,7 +10,7 @@ import iconShield from '../assets/shield.png'
 import iconCode from '../assets/code.png'
 import analysisImg from '../assets/analysis.png'
 import checkIcon from '../assets/check.png'
-import securityImg from './assets/security.png'
+import securityImg from '../assets/security.png'
 
 
 
@@ -161,6 +161,17 @@ const MainCount = () => {
                     </div>
 
 
+                    <div className="w-full lg:w-[45%] flex flex-col items-start">
+                        <h2 className="text-[36px] font-bold text-[#1E1E1E] leading-[46px] mb-[20px]">
+                            Serving information with security.
+                        </h2>
+                        <p className="text-[14px] text-[#666666] leading-[24px] mb-[16px]">
+                            The source of powerful qorld and making future sure. Its a straight forward software. Paired with dynamic image of the actual tool for you.
+                        </p>
+                        <p className="text-[14px] text-[#666666] leading-[24px]">
+                            Where possibilities are made possible. We must have expand <span className="font-semibold text-[#1E1E1E]">Possibilities of better tomorrow.</span> The directly secure of your network deliveing services.
+                        </p>
+                    </div>
                 </div>
             </section>
         </div >
