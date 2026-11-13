@@ -82,6 +82,25 @@ const MainCount = () => {
                     </div>
 
 
+                    <div className="w-full lg:w-[45%] flex flex-col items-start">
+                        <h2 className="text-[36px] font-bold text-[#1E1E1E] leading-[46px] mb-[20px]">
+                            A complete software solution for you.
+                        </h2>
+                        <p className="text-[14px] text-[#666666] leading-[24px] mb-[16px]">
+                            The source of powerful qorld and making future sure. Its a straight forward software.
+                        </p>
+                        <p className="text-[14px] text-[#666666] leading-[24px] mb-[32px]">
+                            Where possibilities are made possible. We must have expand <span className="font-semibold text-[#1E1E1E]">Possibilities of better tomorrow.</span> The directly secure of your network deliveing services.
+                        </p>
+                        <div className="flex items-center gap-[24px]">
+                            <button className="btn bg-[#252525] hover:bg-[#111111] text-white border-none rounded-[6px] px-[28px] h-[46px] min-h-[46px] text-[14px] font-medium normal-case">
+                                Learn more
+                            </button>
+                            <button className="btn btn-link text-[#F54B4B] hover:text-[#d63636] no-underline hover:underline px-0 h-[46px] min-h-[46px] text-[14px] font-medium normal-case">
+                                Ask?
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div >
