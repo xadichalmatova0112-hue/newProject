@@ -12,6 +12,9 @@ import analysisImg from '../assets/analysis.png'
 import checkIcon from '../assets/check.png'
 import securityImg from '../assets/security.png'
 import laptopImg from '../assets/laptop.png'
+import basicCard from '../assets/basic-plan.png'
+import premiumCard from '../assets/premium-plan.png'
+import ultimateCard from '../assets/ultimate-plan.png'
 
 
 
@@ -231,6 +234,11 @@ const MainCount = () => {
                         </div>
                     </div>
 
+                    <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-[30px]">
+                        <img src={basicCard} alt="Basic Plan" className="w-[340px] h-[520px] object-contain rounded-[14px] " />
+                        <img src={premiumCard} alt="Premium Plan" className="w-[340px] h-[520px] object-contain scale-[1.28] rounded-[14px] " />
+                        <img src={ultimateCard} alt="Ultimate Plan" className="w-[340px] h-[520px] object-contain rounded-[14px] " />
+                    </div>
 
                 </div>
             </section>
