@@ -174,6 +174,28 @@ const MainCount = () => {
                     </div>
                 </div>
             </section>
+            <section className="bg-[#F5FBF9] ">
+                <div className="w-[85%] mx-auto flex flex-col lg:flex-row items-center justify-between gap-[60px]">
+
+                    <div className="w-full lg:w-[45%] flex flex-col items-start">
+                        <h2 className="text-[36px] font-bold text-[#1E1E1E] leading-[46px] mb-[20px]">
+                            Get our software
+                        </h2>
+                        <p className="text-[14px] text-[#666666] leading-[24px] mb-[16px]">
+                            The source of powerful qorld and making your future sure. It's a straight forward software for you.
+                        </p>
+                        <p className="text-[14px] text-[#666666] leading-[24px] mb-[32px]">
+                            The source of powerful qorld and making future sure. Its a straight forward software. Paired with dynamic image of the actual tool and the performance.
+                        </p>
+                        <button className="btn bg-[#F54B4B] hover:bg-[#d63636] text-white border-none rounded-[6px] px-[28px] h-[48px] min-h-[48px] text-[14px] font-medium normal-case">
+                            Download now
+                        </button>
+                    </div>
+
+                  
+
+                </div>
+            </section>
         </div >
     )
 }
