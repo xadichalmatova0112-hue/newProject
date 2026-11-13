@@ -192,9 +192,43 @@ const MainCount = () => {
                             Download now
                         </button>
                     </div>
-                    
+
                     <div className="w-full flex justify-end">
                         <img src={laptopImg} alt="Get our software" className="w-full object-contain" />
+                    </div>
+
+
+                </div>
+            </section>
+            <section id="pricing" className="bg-base-100 py-[80px]">
+                <div className="w-[85%] mx-auto flex flex-col items-center">
+
+                    <h2 className="text-[36px] font-bold text-[#1E1E1E] text-center mb-[16px]">
+                        Best Pricing Plan
+                    </h2>
+                    <p className="text-[14px] text-[#666666] text-center leading-[24px] max-w-[540px] mb-[28px]">
+                        Empowering the Internet Generation. Driving the Communication Revolution. Technology at the speed of life. Empowered by Innovation.
+                    </p>
+
+                    <div className="flex items-center gap-[14px] mb-[12px]">
+                        <span className="text-[14px] text-[#666666]">Monthly</span>
+                        <input type="checkbox" className="toggle bg-white hover:bg-white border-[#4EE2A1] [--tglbg:#4EE2A1]" />
+                        <span className="text-[14px] text-[#1E1E1E] font-medium">Quarterly</span>
+                    </div>
+
+                    <div className="flex items-center gap-[6px] mb-[28px]">
+                        <span className="text-[13px] font-semibold text-[#1E1E1E]">Save up to 40%</span>
+                        <span className="text-[#F5BE18] text-[18px]">⤴</span>
+                    </div>
+
+                    <div className="w-full max-w-[780px] flex flex-col items-center mb-[60px]">
+                        <div className="bg-[#333333] text-white text-[12px] font-medium px-[12px] py-[4px] rounded-[4px] mb-[8px]">
+                            $130
+                        </div>
+                        <div className="w-full h-[8px] bg-[#E8F8F2] rounded-full flex items-center">
+                            <div className="w-[50%] h-[8px] bg-gradient-to-r from-[#5BE8A8] to-[#34D399] rounded-full"></div>
+                            <div className="w-[18px] h-[18px] bg-[#4EE2A1] border-[3px] border-white rounded-full shadow-md ml-[-9px]"></div>
+                        </div>
                     </div>
 
 
