@@ -8,6 +8,8 @@ import iconSettings from '../assets/settings.png'
 import iconUser from '../assets/user.png'
 import iconShield from '../assets/shield.png'
 import iconCode from '../assets/code.png'
+import analysisImg from '../assets/analysis.png'
+import checkIcon from '../assets/check.png'
 
 
 const MainCount = () => {
@@ -101,6 +103,49 @@ const MainCount = () => {
                             </button>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="bg-base-100 py-[80px]">
+                <div className="w-[85%] mx-auto flex flex-col lg:flex-row items-center justify-between gap-[60px]">
+
+                    <div className="w-full lg:w-[45%] flex flex-col items-start">
+                        <h2 className="text-[36px] font-bold text-[#1E1E1E] leading-[46px] mb-[20px]">
+                            Discover & growth with analysis.
+                        </h2>
+                        <p className="text-[14px] text-[#666666] leading-[24px] mb-[28px]">
+                            Software with new dimensions. The better future and information about the virtual world.
+                        </p>
+
+                        <ul className="flex flex-col gap-[16px]">
+                            <li className="flex items-center gap-[12px]">
+                                <img src={checkIcon} alt="check" className="w-[20px] h-[20px] object-contain" />
+                                <span className="text-[20px] text-[#555555]">
+                                    Software with new dimensions the better.
+                                </span>
+                            </li>
+                            <li className="flex items-center gap-[12px]">
+                                <img src={checkIcon} alt="check" className="w-[20px] h-[20px] object-contain" />
+                                <span className="text-[20px] text-[#555555]">
+                                    Effortlessly manages all your information.
+                                </span>
+                            </li>
+                            <li className="flex items-center gap-[12px]">
+                                <img src={checkIcon} alt="check" className="w-[20px] h-[20px] object-contain" />
+                                <span className="text-[20px] text-[#555555]">
+                                    Simple Solutions for Complex Connections.
+                                </span>
+                            </li>
+                            <li className="flex items-center gap-[12px]">
+                                <img src={checkIcon} alt="check" className="w-[20px] h-[20px] object-contain" />
+                                <span className="text-[20px] text-[#555555]">
+                                    Complete business solutions for customers.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                 
+
                 </div>
             </section>
         </div >
