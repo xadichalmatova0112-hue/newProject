@@ -143,8 +143,11 @@ const MainCount = () => {
                             </li>
                         </ul>
                     </div>
+                    
+                    <div className="w-full lg:w-[50%] flex justify-end">
+                        <img src={analysisImg} alt="Discover and growth analysis" className="w-full object-contain" />
+                    </div>
 
-                 
 
                 </div>
             </section>
